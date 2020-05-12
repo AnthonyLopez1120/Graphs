@@ -25,4 +25,7 @@ class Stack():
             return None
     def size(self):
         return len(self.stack)
-
+class Node():
+    def __init__(self, vaule, prev=None):
+        self.value = vaule
+        self.prev = prev
